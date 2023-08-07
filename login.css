@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    background-image: url(/collapse.jpg);
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width: 420px;
+    color: #ffff;
+    padding: 30px;
+   
+}
+header h2{
+    font-size: 25px;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+  
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    background: transparent;
+    color: #ffff;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50);
+    font-size: 18px;
+    margin-top: -7px;
+}
+.checkbox-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+   margin-top: -15px;
+   margin-bottom: 20px;
+   padding: 5px 10px;
+}
+.container .btn button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.signup{
+    margin: 20px;
+    text-align: center;
+}
+.container a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+.container a:hover{
+    text-decoration: underline;
+}
