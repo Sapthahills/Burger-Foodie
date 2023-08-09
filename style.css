@@ -814,10 +814,37 @@ footer .end span a:hover{
     .review h1{
         font-size: 40px;
 }
-    .review .rev_pack{
+     .review .rev_pack{
         grid-template-columns: 1fr 1fr;
-        width: 55%;
+        margin-left: 40px;
     }
 
+    .rev_pack .rev_card{
+        position: relative;
+    }
+
+    .order_pack .order_img{
+        display: none;
+    }
+    .order{
+        position: relative;
+        top: 720px;
+        left: 70%;
+    }
+    .order .order_pack{
+        position: relative;
+        top: 80px;
+    }
+
+    footer{
+        position: relative;
+        top: 720px;
+    }
+    footer .footer_main{
+        width: 860px;
+    }
+    footer .end{
+        display: none;
+    }
 
 }
