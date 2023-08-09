@@ -732,3 +732,92 @@ footer .end span a:hover{
     color: #421f89;
 }
 
+
+
+
+/* Responsive */
+
+@media only screen and (max-width:376px) {
+    .main .image{
+       display: none;
+    }
+    .main .main_content{
+        position: relative;
+        top: 60px;
+        left: 65%;
+    }
+    section .main_btn{
+        position: relative;
+        top: 220px;
+        left: 85%;
+    }
+
+    .abt_main .image img{
+        width: 320px;
+       height: 50vh;
+        position: relative;
+        top: 30px;
+        left: 180px;
+    }
+    .abt_content{
+       position: relative;
+       right: -200px;
+
+
+    }
+    .abt_content h1{
+    font-size: 40px;
+    }
+    .abt_content h2{
+        font-size: 20px;
+    }
+
+    .abt_content p{
+        width: 480px; 
+        font-size: 20px;
+    }
+    .menu{
+        position: relative;
+        top: -180px;
+    }
+    .menu h1{
+        position: relative;
+        left: 70%;
+    }
+    .menu_pack{
+        width: 55%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+
+    .gallary .gal_pack{
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .gal_pack .gal_img img{
+        width: 380px;
+    }
+    .gallary{
+    position: relative;
+    top: -160px;}
+
+    .gallary h1{
+        left: 70%;
+    }
+    .gal_pack .gal_img h3{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .review h1{
+        font-size: 40px;
+}
+    .review .rev_pack{
+        grid-template-columns: 1fr 1fr;
+        width: 55%;
+    }
+
+
+}
